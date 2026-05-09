@@ -8,3 +8,6 @@ Bluesky (and thus AT Protocol) provides two flavors of moderation: takedowns and
 
 I prefer to not say that I moderate the network surrounding ATProto. Though, what I deploy is standard for content moderation. However, I remain strict in not labeling against behaviors whenever possible.
 
+Bluesky is vast. It’s an entire social network that can be accessed by a public firehose. A lot of data will need to be handled, especially of images.
+
+- [ ] write about how I fine-tuned a classification model.
