@@ -1,6 +1,6 @@
 A necessary evil.
 
-Moderation is a position that some people may find power in. I dislike that. It’s something that must be given extra thought. Not for someone to recklessly abuse. The primary goal is to enforce rules, usually maintaining peace of the environment.
+Moderation is a position that some people may find power in. I dislike that. It’s something that must be given extra thought. Not for someone to recklessly abuse. The primary goal is to enforce rules, usually to maintain peace of the environment.
 
 ## ATProto
 
