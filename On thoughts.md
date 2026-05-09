@@ -19,3 +19,18 @@ Downsides includes:
 - Some specific typos can be missed easily. Arial has issues with l and I characters looking identical. Spell checkers fixes this.
 
 Maybe I’d like my terminal to also use proportional fonts. However, very little is done for this. Most terminals just don’t work under any proportional fonts, usually they still put glyphs in a cell grid.
+
+Actually. It is possible to change the font in SilverBullet. [How to change editor and ui fonts - Tricks & Techniques - SilverBullet Community](https://community.silverbullet.md/t/how-to-change-editor-and-ui-fonts/752)
+
+```space-style
+@font-face {
+  font-family: 'Arial';
+}
+
+#sb-root {
+       --editor-font: "Arial" !important;
+       --ui-font: "Arial" !important;
+}
+```
+
+Just that. A code block is all that’s needed. Any page, it just works.
