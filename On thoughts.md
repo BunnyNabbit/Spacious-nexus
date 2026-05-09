@@ -1,5 +1,3 @@
-# I to write about thoughts
-
 What I use is SilverBullet. It’s not perfect, it’s terrible, really. But it gets there.
 
 > it’s terrible, really.
