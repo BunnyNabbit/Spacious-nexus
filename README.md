@@ -1,5 +1,5 @@
 ---
-index: false
+draft: true
 ---
 # Spacious nexus
 

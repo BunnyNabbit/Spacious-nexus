@@ -1,5 +1,5 @@
 ---
-index: false
+draft: true
 ---
 If you’re confused and don’t know what to do, have a look at the [Manual](https://silverbullet.md/Manual).
 
