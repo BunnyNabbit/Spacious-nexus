@@ -14,6 +14,10 @@ Bluesky is vast. It’s an entire social network that can be accessed by a publi
 
 - [ ] write about how I fine-tuned a classification model.
 
+I mostly label video and images. For handling large queues, I developed [Rayleigh Moderation](https://github.com/BunnyNabbit/rayleigh-labels). It’s mostly developed for my needs.
+
+[^1]: This isn’t something I’ll link here since it does provide feeds from its labels. The feeds of which may not have content labeled appropriately by Bluesky or by the posts’ authors. Often, this is because the auto labeler misses, or because it’s non-sexual.
+
 ## Handling exposure
 
 This isn’t something I’m too familiar on despite my constant exposure to sexual content. For ATProto, I rely on the Bluesky moderation service’s ability to take down repositories or to appropriately label content.
