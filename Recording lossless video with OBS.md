@@ -14,14 +14,14 @@ Videos will be recorded in .avi format if this is done.
 1. Ensure that in the output tab in settings with “Output Mode” is set to “Advanced”.
 2. Switch over to the “Recording” tab.
 3. Set options in the “Recording Settings” section:
-  - Recording Format: Hybrid MP4 (.mp4)
-  - Video Encoder: x264
-  - Optionally set “Audio Encoder” to any lossless format.
+   - Recording Format: Hybrid MP4 (.mp4)
+   - Video Encoder: x264
+   - Optionally set “Audio Encoder” to any lossless format.
 4. Set options in the “Encoder Settings” section:
-  - Rate Control: CRF
-  - CRF: 0
-  - x264 options (separated by space): `qp=0`
-  - Set “CPU Usage Preset” to highest of what your device can handle. Or set to fastest if you plan to re-encode the video.
+   - Rate Control: CRF
+   - CRF: 0
+   - x264 options (separated by space): `qp=0`
+   - Set “CPU Usage Preset” to highest of what your device can handle. Or set to fastest if you plan to re-encode the video.
 5. On the advanced tab, set “Color Format” to “I444 (8-bit, 4:4:4, 3 planes)”.
 
 ## Re-encode
