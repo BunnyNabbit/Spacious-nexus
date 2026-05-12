@@ -26,7 +26,7 @@ Videos will be recorded in .avi format if this is done.
 
 ## Re-encode
 
-Whichever way the video is encoded, it may not exactly be tightly compacted. For this, it may be recommended to re-encode recorded lossless video.
+Whichever way the video is encoded, it may not exactly be tightly compacted. For this, it may be recommended to re-encode the recorded lossless video.
 
 ```powershell
 ffmpeg -i "./input-video.mp4" -codec:v libx264 -codec:a copy -preset placebo -qp 0 "./output-video.mp4"
