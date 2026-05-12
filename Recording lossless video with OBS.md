@@ -1,4 +1,4 @@
-Prior to changing settings, consider if a separate profile should be used. Duplicating the current OBS profile can be done with `Profile > Duplicate...`.
+Prior to changing settings, consider if a separate profile should be used. Duplicating the current *OBS* profile can be done with `Profile > Duplicate...`.
 
 ![[media/OBS duplicate profile.webp|OBS screenshot. The profile tab is expanded with the cursor hovering over the duplicate button.]]
 
@@ -9,7 +9,7 @@ Prior to changing settings, consider if a separate profile should be used. Dupli
 
 Videos will be recorded in .avi format if this is done.
 
-## Advanced lossless H.264
+## Advanced lossless *H.264*
 
 1. Ensure that in the output tab in settings with “Output Mode” is set to “Advanced”.
 2. Switch over to the “Recording” tab.
@@ -36,7 +36,7 @@ If `-preset placebo` is too slow. Try `-preset veryslow`.
 
 ## Verify (frame extraction)
 
-Check that these lossless videos are in fact lossless. I do this by extracting frames and manually checking them. Using [FFmpeg](https://ffmpeg.org/), this command can be used:
+Check that these lossless videos are in fact lossless. I do this by extracting frames and manually checking them. Using [*FFmpeg*](https://ffmpeg.org/), this command can be used:
 
 ```powershell
 ffmpeg -i "./video.mp4" ./frame%04d.png
