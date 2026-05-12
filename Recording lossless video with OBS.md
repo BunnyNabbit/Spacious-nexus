@@ -34,6 +34,6 @@ Whichever way the video is encoded, it may not exactly be tightly compacted. For
 
 Check that these lossless videos are in fact lossless. I do this by extracting frames and manually checking them. Using [FFmpeg](https://ffmpeg.org/), this command can be used:
 
-```bash
-ffmpeg -i ./video.mp4 ./frame%04d.png
+```powershell
+ffmpeg -i "./video.mp4" ./frame%04d.png
 ```
