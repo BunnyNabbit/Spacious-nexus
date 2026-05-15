@@ -16,7 +16,7 @@ I prefer to not say that I moderate the network surrounding *ATProto*. Though, w
 
 I mostly label video and images. For handling large queues, I developed *[Rayleigh Moderation](https://github.com/BunnyNabbit/rayleigh-labels)*. It’s mostly developed for my needs.
 
-[^1]: This isn’t something I’ll link here since it does provide feeds from its labels. The feeds of which may not have content labeled appropriately by Bluesky or by the posts’ authors. Often, this is because the auto labeler misses, or because it’s non-sexual.
+[^1]: This isn’t something I’ll link here since it does provide feeds from its labels. The feeds of which may not have content labeled appropriately by *Bluesky* or by the posts’ authors. Often, this is because the *Bluesky*'s auto-moderation systems misses it, or because it’s non-sexual.
 
 ## Handling exposure
 
