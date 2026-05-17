@@ -3,6 +3,12 @@ draft: true
 ---
 # Spacious nexus
 
-This is a “space.”. It’s what *SilverBullet* calls them. Likewise, Obsidian calls them “vaults.”. In other words, this is a repository of markdown files. I’ll call this the *spacious nexus*.
+This is a “space.”. It’s what *[[SilverBullet]]* calls them. Likewise, Obsidian calls them “vaults.”. In other words, this is a repository of markdown files. I’ll call this the *[[index|spacious nexus]]*.
 
-See [[CONTRIBUTING]]
+See [[CONTRIBUTING]].
+
+## Frontmatter meaning
+
+- `draft: boolean?` - If the document shouldn’t be shown on the explorer in [*spacious nexus* website](https://notes.bunnynabbit.com/).  
+  This document itself is considered a draft, not because it is a draft. But rather its usefulness on the *spacious nexus* isn’t useful for most of the general public. It is intended to be displayed on the git repository.
+- `title: string?` - The title of the document. If omitted, the file name of the document is used.
