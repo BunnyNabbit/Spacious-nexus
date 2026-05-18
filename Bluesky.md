@@ -1,7 +1,7 @@
 ---
 draft: true
 ---
-[*Bluesky*](https://bsky.app/) is an *[[ATProto]]* application. My primary account is [@bunnynabbit.com](https://github.com/Mvb1122/Discord-Status-Reposter).
+[*Bluesky*](https://bsky.app/) is an *[[ATProto]]* application. My primary account is [@bunnynabbit.com](https://bsky.app/profile/bunnynabbit.com).
 
 ## What I use
 
