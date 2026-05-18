@@ -19,7 +19,7 @@ I use a variation of [this guide](https://noxz.tech/articles/explorer_filters_in
 
 ### Automation
 
-- I rnmu`pm2 "pnpm exec quartz build --watch"`
+- I run `pm2 start "pnpm exec quartz build --watch" --name quartz`
 - I have a cron job to `git pull` in 2-hour intervals.
 - It doesn’t work. uh...
 
