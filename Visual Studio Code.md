@@ -9,7 +9,7 @@ Extensions that I use.
 
 ### Audible editor
 
-I enjoy sound feedback in software. There are extensions that enable this. Some of them seem to be based on the [*play-sound*](https://www.npmjs.com/package/play-sound) *[[npm]]* package. *play-sound* poorly on a default Windows setup but adding *[MPlayer](http://www.mplayerhq.hu/design7/dload.html)* to PATH helps to prevent the media player from opening.
+I enjoy sound feedback in software. There are extensions that enable this. Some of them seem to be based on the [*play-sound*](https://www.npmjs.com/package/play-sound) *[[npm]]* package. *play-sound* performs poorly on a default Windows setup but adding *[MPlayer](http://www.mplayerhq.hu/design7/dload.html)* to PATH helps to prevent the media player from opening.
 
 - *[TypaTone (Keyboard sounds)](https://marketplace.visualstudio.com/items?itemName=smo.typatone-vscode)*. Based on *[TypaTone](https://typatone.com/)*.
 - *[Sound Syntax](https://marketplace.visualstudio.com/items?itemName=EmreCebeci.soundsyntax)*.
