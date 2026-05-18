@@ -5,7 +5,7 @@ draft: true
 
 ## What I use
 
-- [Mvb1122/Discord-Status-Reposter](https://github.com/Mvb1122/Discord-Status-Reposter) - For reposting Discord statuses to *Bluesky*. It has support for *Mastodon* too.
+- [Mvb1122/Discord-Status-Reposter](https://github.com/Mvb1122/Discord-Status-Reposter) - For reposting *Discord* statuses to *Bluesky*. It has support for *Mastodon* too.
 
 ## Issues
 
