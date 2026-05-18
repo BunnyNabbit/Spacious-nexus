@@ -1,3 +1,6 @@
+---
+draft: true
+---
 I use [OBS](https://obsproject.com/) (Open Broadcast Software) for recording and streaming
 
 ## Recording
