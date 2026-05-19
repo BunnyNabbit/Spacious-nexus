@@ -1,6 +1,6 @@
 Prior to changing settings, consider if a separate profile should be used. Duplicating the current *OBS* profile can be done with `Profile > Duplicate...`.
 
-![[media/OBS duplicate profile.webp|OBS screenshot. The profile tab is expanded with the cursor hovering over the duplicate button.]]
+![OBS screenshot. The profile tab is expanded with the cursor hovering over the duplicate button.](</media/OBS duplicate profile.webp>)
 
 ## Simple
 
