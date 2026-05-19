@@ -5,7 +5,7 @@ draft: true
 
 ## Speedrunning
 
-This game is apparently so obscure, there is barely any gameplay footage online, let alone speedruns. This is also a problem as there is very little documentation for routing. To solve this problem, I started the [Gassy GaoGao wiki](https://gassy-gaogao.bunnynabbit.com/wiki/Main_Page).
+This game is apparently so obscure, there is barely any gameplay footage online, let alone speedruns. This is also a problem as there is very little documentation for routing. To solve this problem, I started the *[Gassy GaoGao wiki](https://gassy-gaogao.bunnynabbit.com/wiki/Main_Page)*.
 
 Links and images alone are a bit insufficient for finding routes. I wrote a script to parse a given wiki dump into a visual chart.
 
