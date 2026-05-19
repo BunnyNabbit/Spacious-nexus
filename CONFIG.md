@@ -12,3 +12,11 @@ draft: true
        --ui-font: "Arial" !important;
 }
 ```
+
+```space-lua
+-- managed-by: configuration-manager
+command.update { name = "Open Command Palette", key = "Mod-Shift-p" }
+command.update { name = "Navigate: Page Picker", key = "Mod-r" }
+command.update { name = "Silversearch: Search", key = "" }
+command.update { name = "Sync: Space", key = "Mod-s" }
+```
