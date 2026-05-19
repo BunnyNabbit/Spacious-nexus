@@ -21,7 +21,21 @@ I use a variation of [this guide](https://noxz.tech/articles/explorer_filters_in
 
 - I run `pm2 start "pnpm exec quartz build --watch" --name quartz`
 - I have a cron job to `git pull` in 2-hour intervals.
-- It doesn’t work. uh...
+  - It doesn’t work. uh...
+
+I’m getting the idea that I should set up a git hook on my remote repository. But I’m not too sure about updating two repositories. So instead, I have this:
+
+- I set up a `post-commit` hook on my local repository.  
+  ```bash  #!/bin/sh
+  powershell.exe -Command "Start-Process -FilePath 'C:\Users\Aon Langton\updateQuartz.cmd'"
+  ```
+- That’s just to open up a new shell window. `updateQuartz.cmd` looks like this:  
+  ```powershell
+  pause
+  git.exe push
+  ssh.exe user@example.invalid "cd ./quartz/content && git pull"
+  ```
+- Now, when I commit, I get asked if I should push the changes. When I do, my server gets updated. Opening a new window is necessary as I am asked for a passphrase.
 
 ### Custom 404 page
 
