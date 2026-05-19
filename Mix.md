@@ -14,7 +14,7 @@ I find its recommendation system to be more on the inspirational side. The conte
 
 For finding obscure content, these hidden topics often do it for me:
 
-- Smart Sampling: Unknown as to what this does. Though, content is relevant, has aesthetic and hasn’t been viewed by anyone on Mix.
+- [Smart Sampling](https://mix.com/topic/sampling): Unknown as to what this does. Though, content is relevant, has aesthetic and hasn’t been viewed by anyone on Mix.
 
 Mix is sort of a social platform. Users are able to curate content on the mobile app. This includes most websites.
 
