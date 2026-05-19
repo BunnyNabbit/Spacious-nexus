@@ -13,6 +13,6 @@ A personal checklist I use for my packages.
   - Emit type declarations.
 - Package release.
   - [Use `release-it` Actions workflow](https://github.com/BunnyNabbit/celaria-formats/blob/b1047394281c66c457805afeac5b275a0575f206/.github/workflows/release.yml).  
-    The workflow expects that the tsconfig.json` is set to emit type declarations.
+    The workflow expects that the `tsconfig.json` is set to emit type declarations.
 - Documentation.
   - [Use TypeDoc Actions workflow](https://github.com/BunnyNabbit/celaria-formats/blob/b1047394281c66c457805afeac5b275a0575f206/.github/workflows/docs.yml).
