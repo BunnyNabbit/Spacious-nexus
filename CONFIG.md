@@ -1,5 +1,6 @@
 ---
 draft: true
+publish: false
 ---
 [How to change editor and ui fonts - Tricks & Techniques - SilverBullet Community](https://community.silverbullet.md/t/how-to-change-editor-and-ui-fonts/752)
 ```space-style
