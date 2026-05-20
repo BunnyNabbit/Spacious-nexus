@@ -7,7 +7,7 @@ draft: true
 
 ### Git
 
-The true source of information comes from my *[[SilverBullet]]* space hosted on a VPS. To sync documents from my space to my local filesystem, I use *[SilverBullet+](https://silverbullet.plus/)*. From there, I use whichever I do for *[[Git]]* to push changes to the [git repository](https://github.com/BunnyNabbit/Spacious-nexus).
+The true source of information comes from my *[[SilverBullet]]* space hosted on a VPS. To sync documents from my space to my local filesystem, I use *[SilverBullet+](https://silverbullet.plus/)*. From there, I use whichever I do for *[[Git]]* to push changes to the [git repository](https://github.com/BunnyNabbit/Spacious-nexus). As I primarily author notes in SilverBullet, I tend to use *GitHub Desktop Plus* for this.
 
 ### Excluding documents from the explorer
 
