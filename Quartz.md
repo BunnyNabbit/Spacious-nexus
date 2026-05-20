@@ -26,7 +26,8 @@ I use a variation of [this guide](https://noxz.tech/articles/explorer_filters_in
 I’m getting the idea that I should set up a git hook on my remote repository. But I’m not too sure about updating two repositories. So instead, I have this:
 
 - I set up a `post-commit` hook on my local repository.  
-  ```bash  #!/bin/sh
+  ```bash
+  #!/bin/sh
   powershell.exe -Command "Start-Process -FilePath 'C:\Users\Aon Langton\updateQuartz.cmd'"
   ```
 - That’s just to open up a new shell window. `updateQuartz.cmd` looks like this:  
