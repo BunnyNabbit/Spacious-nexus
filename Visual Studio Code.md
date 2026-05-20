@@ -4,7 +4,7 @@ Extensions that I use.
 
 ### Formatting
 
-- [*JSDoc Folder*](https://marketplace.visualstudio.com/items?itemName=aydgn.jsdoc-folder). Automatically folds documentation comments. Combined with *Prettier* and [BunnyNabbit/prettier-plugin-drone-class](https://github.com/BunnyNabbit/prettier-plugin-drone-class) for elegant handling of symbol summaries.
+- [*JSDoc Folder*](https://marketplace.visualstudio.com/items?itemName=aydgn.jsdoc-folder). Automatically folds documentation comments. Combined with *Prettier* and [prettier-plugin-drone-jsdoc](https://github.com/BunnyNabbit/prettier-plugin-jsdoc) for elegant handling of symbol summaries.
 - [*space Camel*](https://marketplace.visualstudio.com/items?itemName=BunnyNabbit.space-camel). Adds virtual spaces to camelCase/PascalCase.
 
 ### Audible editor
