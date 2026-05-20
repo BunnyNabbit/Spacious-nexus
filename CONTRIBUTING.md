@@ -5,7 +5,7 @@ draft: true
 
 *[[index|Spacious nexus]]* is written from my own perspective. Its purpose is to offload what I have in mind to a public written form. However, some facts may not be correct facts at all. In this case, corrections are encouraged.
 
-This is a personal knowledge base. I won’t accept guest written articles of the kind. Though, if you think you have something useful for me, do @ me on Bluesky. Maybe I’ll write about it.
+This is a personal knowledge base. I won’t accept guest written articles of the kind. Though, if you think you have something useful for me, do @ me on [[Bluesky]]. Maybe I’ll write about it.
 
 ## Broken links
 
