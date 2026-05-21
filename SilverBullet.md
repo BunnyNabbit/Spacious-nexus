@@ -1,7 +1,7 @@
 ---
 draft: true
 ---
-[*SilverBullet*]([https://quartz.jzhao.xyz/](https://silverbullet.md/)) is what I use to edit and make the most use out of the *[[index|spacious nexus]]*.
+[*SilverBullet*](https://silverbullet.md/) is what I use to edit and make the most use out of the *[[index|spacious nexus]]*.
 
 I have *SilverBullet* hosted on a VPS. I have some private notes or unstaged changes, so my space is the truth of source. Its [git repository](https://github.com/BunnyNabbit/Spacious-nexus) tends to be a more curated view of the space.
 
