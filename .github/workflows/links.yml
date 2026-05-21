@@ -18,8 +18,7 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          fail: false
-          args: --root-dir .
+          args: --root-dir . .
 
       - name: Create Issue From File
         if: steps.lychee.outputs.exit_code != 0
