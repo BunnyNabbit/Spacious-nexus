@@ -63,6 +63,6 @@ I needed my 404 page to be useful. I edited `/quartz/components/pages/404.tsx` t
  export default (() => NotFound) satisfies QuartzComponentConstructor
 ```
 
-This potentially enables a more [[social]] aspect of linking. I can link to *the [[Agora]]*. It'll be a 404 page, sure. But folks that are interested in the *Agora* typically write about it, so there is bound to be enough coverage. I can also be rather lax when linking to [[concepts]], even if it's something I wouldn't [[write]] about. The *spacious nexus* currently isn't part of that *Agora*, but I’m considering joining. I see many reasons why I should.
+This potentially enables a more [[social]] aspect of linking. I can link to *the [[Agora]]*. It'll be a 404 page, sure. But folks that are interested in the *Agora* typically write about it, so there is bound to be enough coverage. I can also be rather lax when linking to [[concepts]], even if it's something I wouldn't [[write]] about. Since [[Journal/2026-05-20]], the *spacious nexus* is part of that *Agora*
 
 It creates an interesting opportunity for connecting pages that don't exist. On one hand it's a page that doesn't exist on my graph, but it's also a page that exists elsewhere and has [[connections]] within the vast *Agora*.
