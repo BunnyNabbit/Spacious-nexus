@@ -15,6 +15,6 @@ I feel like such a system is considered low priority for mainstream editors to i
 
 ## What do we have now?
 
-*Nick Gravaard*‘s website lists some implementations. I’m noticing a few of these editors are very particular about how code is navigated. *[[Clade]]*/*Code Browser* is one example that combines it with [[Explicit folding|explicit folding]].
+*Nick Gravgaard*‘s website lists some implementations. I’m noticing a few of these editors are very particular about how code is navigated. *[[Clade]]*/*Code Browser* is one example that combines it with [[Explicit folding|explicit folding]].
 
 I am yet to see a proper implementation for *[[Visual Studio Code]]*, my go-to code editor.
