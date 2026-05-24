@@ -66,3 +66,20 @@ I needed my 404 page to be useful. I edited `/quartz/components/pages/404.tsx` t
 This potentially enables a more [[social]] aspect of linking. I can link to *the [[Agora]]*. It'll be a 404 page, sure. But folks that are interested in the *Agora* typically write about it, so there is bound to be enough coverage. I can also be rather lax when linking to [[concepts]], even if it's something I wouldn't [[write]] about. Since [[Journal/2026-05-20]], the *spacious nexus* is part of that *Agora*
 
 It creates an interesting opportunity for connecting pages that don't exist. On one hand it's a page that doesn't exist on my graph, but it's also a page that exists elsewhere and has [[connections]] within the vast *Agora*.
+
+### Explicit unpublishing
+
+My committed notes are public by default. But sometimes it doesn’t make sense to publish these to my website. Quartz comes with [explicit publishing](https://quartz.jzhao.xyz/plugins/ExplicitPublish), so I edited the plugin to be used for explicit unpublishing. This is similar to how the [RemoveDrafts](https://quartz.jzhao.xyz/plugins/RemoveDrafts) plugin works, with the difference being that it acts when `publish` is `false` on a document’s frontmatter.
+
+`/quartz/plugins/filters/explicit.ts`  
+```ts
+import { QuartzFilterPlugin } from "../types"
+
+export const ExplicitPublish: QuartzFilterPlugin = () => ({
+  name: "ExplicitPublish",
+  shouldPublish(_ctx, [_tree, vfile]) {
+    const explicitlyUnpublished: boolean = vfile.data?.frontmatter?.publish === false || vfile.data?.frontmatter?.publish === "false"
+    return !explicitlyUnpublished
+  },
+})
+```
