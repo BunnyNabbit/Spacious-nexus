@@ -1,5 +1,5 @@
 ---
-draft: true
+title: "My use of Quartz"
 ---
 [*Quartz*](https://quartz.jzhao.xyz/) is the site generator used by *[[index|spacious nexus]]*.
 
