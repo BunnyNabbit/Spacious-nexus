@@ -1,3 +1,6 @@
+---
+draft: true
+---
 Information in pages or external links may not be up to date. Outdated information can potentially be misleading or dangerous. For contributing fixes, read [[CONTRIBUTING]].
 
 ## Content warning
