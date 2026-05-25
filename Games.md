@@ -1,5 +1,5 @@
 ## In rotation
 
-- [[Gassy GaoGao]].
-- [[Celaria]].
-- [[Cube World]].
+- *[[Gassy GaoGao]]*.
+- *[[Celaria]]*.
+- *[[Cube World]]*.
