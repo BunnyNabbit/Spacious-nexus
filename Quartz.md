@@ -10,7 +10,7 @@ title: "My use of Quartz"
 
 ### Git
 
-The true source of information comes from my *[[SilverBullet]]* space hosted on a VPS. To sync documents from my space to my local filesystem, I use *[SilverBullet+](https://silverbullet.plus/)*. From there, I use whichever I do for *[[Git]]* to push changes to the [git repository](https://github.com/BunnyNabbit/Spacious-nexus). As I primarily author notes in SilverBullet, I tend to use *GitHub Desktop Plus* for this.
+The true source of information comes from my *[[SilverBullet]]* space hosted on a VPS. To sync documents from my space to my local filesystem, I use *[SilverBullet+](https://silverbullet.plus/)*. From there, I use whichever I do for *[[Git]]* to push changes to the [git repository](https://github.com/BunnyNabbit/Spacious-nexus). As I primarily author notes in *SilverBullet*, I tend to use *GitHub Desktop Plus* for this.
 
 ### Excluding documents from the explorer
 
@@ -43,7 +43,7 @@ I’m getting the idea that I should set up a git hook on my remote repository. 
 
 ### Custom 404 page
 
-I needed my 404 page to be useful. I edited `/quartz/components/pages/404.tsx` to include a link to [the Agora](https://anagora.org/).
+I needed my 404 page to be useful. I edited `/quartz/components/pages/404.tsx` to include a link to [the *Agora*](https://anagora.org/).
 
 ```diff
 @@ const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
@@ -72,7 +72,7 @@ It creates an interesting opportunity for connecting pages that don't exist. On 
 
 ### Explicit unpublishing
 
-My committed notes are public by default. But sometimes it doesn’t make sense to publish these to my website. Quartz comes with [explicit publishing](https://quartz.jzhao.xyz/plugins/ExplicitPublish), so I edited the plugin to be used for explicit unpublishing. This is similar to how the [RemoveDrafts](https://quartz.jzhao.xyz/plugins/RemoveDrafts) plugin works, with the difference being that it acts when `publish` is `false` on a document’s frontmatter.
+My committed notes are public by default. But sometimes it doesn’t make sense to publish these to my website. *Quartz* comes with [explicit publishing](https://quartz.jzhao.xyz/plugins/ExplicitPublish), so I edited the plugin to be used for explicit unpublishing. This is similar to how the [RemoveDrafts](https://quartz.jzhao.xyz/plugins/RemoveDrafts) plugin works, with the difference being that it acts when `publish` is `false` on a document’s frontmatter.
 
 `/quartz/plugins/filters/explicit.ts`  
 ```ts
