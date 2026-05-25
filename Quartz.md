@@ -3,7 +3,7 @@ title: "My use of Quartz"
 ---
 [*Quartz*](https://quartz.jzhao.xyz/) v4 is the site generator used by *[[index|spacious nexus]]*.
 
-> **warning** Warning
+> **Warning  
 > *Quartz* v5 may have major changes that aren’t compatible with the changes for *Quartz* v4. I am currently on commit [`d25a6eabf96751ffca56f8a8139272def7a65041`](https://github.com/jackyzha0/quartz/commit/d25a6eabf96751ffca56f8a8139272def7a65041), so these changes are likely to apply from there.
 
 ## How I use it
