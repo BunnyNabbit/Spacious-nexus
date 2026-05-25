@@ -1,3 +1,6 @@
+---
+draft: true
+---
 [*classicborne*](https://classicborne.bunnynabbit.com/) is a [[Minecraft classic]] server library. Its goal is to simplify creation of games for modern clients using Classic Protocol Extension. Its software design pattern relies heavily on [[Object-orientated programming|object-orientated programming]]. 
 
 Unlike *MCGalaxy*, *classicborne* doesn’t aim to include a readily available environment suitable for a freebuild server. It is intended to be built and expanded upon. Extending *classicborne* is usually to subclass from the library’s classes. In fact, most of *classicborne* originated as part of refactoring *[[Voxel Telephone]]*.
