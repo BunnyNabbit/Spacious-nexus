@@ -1,3 +1,6 @@
+---
+draft: true
+---
 ## In rotation
 
 - *[[Gassy GaoGao]]*.
