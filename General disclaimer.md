@@ -10,4 +10,6 @@ While I try to keep a general audience in mind when publishing notes, it’s not
 - Strong language.
 - Mentions of sexual fetishes.
 
+Whenever this happens, a content warning is there to alert the reader.
+
 I do refrain myself from publishing anything sexually explicit. Actually, not noting down a specific domain might be a good control to determine how æffective note-keeping is.
