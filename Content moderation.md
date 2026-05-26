@@ -1,3 +1,7 @@
+---
+warning: "Discussion of sexual content and fetishes encountered in moderation queues."
+---
+
 A necessary evil.
 
 Moderation is a position that some people may find power in. I dislike that. It’s something that must be given extra thought. Not for someone to recklessly abuse. The primary goal is to enforce rules, usually to maintain peace of the environment. I do believe that moderation could be used to curate content, instead of just disallowing content. When building moderation systems, I always think about how a moderator could tag certain forms of content. Naturally, this creates data useful for automated systems.
