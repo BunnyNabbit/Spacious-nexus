@@ -1,7 +1,7 @@
 ---
 title: "My use of Quartz"
 ---
-[*Quartz*](https://quartz.jzhao.xyz/) v4 is the site generator used by *[[index|spacious nexus]]*.
+[*Quartz*](https://quartz.jzhao.xyz/) v4 is the static site generator used by the website for *[[index|spacious nexus]]*.
 
 >  [!warning] Warning
 > *Quartz* v5 may have major changes that aren’t compatible with the changes for *Quartz* v4. I am currently on commit [`d25a6eabf96751ffca56f8a8139272def7a65041`](https://github.com/jackyzha0/quartz/commit/d25a6eabf96751ffca56f8a8139272def7a65041), so these changes are likely to apply from there.
@@ -86,3 +86,74 @@ export const ExplicitPublish: QuartzFilterPlugin = () => ({
   },
 })
 ```
+
+### Content warnings
+
+Occasionally, I may need to discuss about topics which may not be suitable for all audiences. Read the [[General disclaimer|general disclaimer]] for what this entails.
+
+Whenever I do, I mark the note with a warning which will be displayed as an intermission. In the frontmatter, this could look something like this:
+
+```yaml
+warning: "Talk about urination, huh? This is my nation. Expect what you see."
+```
+
+A component for the warning is defined.
+
+`/quartz/components/ContentWarning.tsx`  
+```typescript
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+export default (() => {
+	const ContentWarning: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
+		const warningText = fileData.frontmatter?.warning ?? "This page has a content warning."
+		return (
+			<div class="aon-content-warning-container">
+				<dialog open class="aon-content-warning">
+					<h1>Content warning</h1>
+					<p>{warningText}</p>
+					<form method="dialog">
+						<button>Proceed</button>
+					</form>
+				</dialog>
+			</div>
+		)
+	}
+	ContentWarning.css = `
+	.aon-content-warning-container:has(.aon-content-warning[open]) {
+		backdrop-filter: blur(10px);
+		width: 100%;
+		height: 100%;
+		background: #000000b5;
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 1000;
+	}
+	.preview-container .aon-content-warning-container {
+		display: none;
+	}
+	`
+	return ContentWarning
+}) satisfies QuartzComponentConstructor
+```
+
+It does not apply for search results. This is intentional, as it would otherwise result in a poor experience when looking through search results.
+
+The component needs to be accessible. This is defined in `/quartz/components/index.ts`.
+
+```diff
+ import Flex from "./Flex"
+ import ConditionalRender from "./ConditionalRender"
++import ContentWarning from "./ContentWarning"
+
+ export {
+   ArticleTitle,
+@@
+   Flex,
+   ConditionalRender,
++  ContentWarning,
+ }
+```
+
+Since I use a custom frontmatter field for the warning text, it will need to be used by *Quartz*.
+
+- [ ] todo: frontmatter defintions
