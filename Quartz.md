@@ -4,7 +4,7 @@ title: "My use of Quartz"
 *[Quartz](https://quartz.jzhao.xyz/) 4* is the static site generator used by the website for *[[index|spacious nexus]]*.
 
 >  [!warning] Warning
-> *Quartz 5* may have major changes that aren’t compatible with the changes for *Quartz 4. I am currently on commit [`d25a6eabf96751ffca56f8a8139272def7a65041`](https://github.com/jackyzha0/quartz/commit/d25a6eabf96751ffca56f8a8139272def7a65041), so these changes are likely to apply from there.
+> *Quartz 5* may have major changes that aren’t compatible with the changes for *Quartz 4*. I am currently on commit [`d25a6eabf96751ffca56f8a8139272def7a65041`](https://github.com/jackyzha0/quartz/commit/d25a6eabf96751ffca56f8a8139272def7a65041), so these changes are likely to apply from there.
 
 ## How I use it
 
