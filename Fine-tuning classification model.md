@@ -1,6 +1,6 @@
 ---
 draft: true
-warning: "I describe what I label in some detail."
+warning: "I mention sexual fetishes as is typical in my moderation workflow."
 publish: false
 ---
 I needed to do [[Content moderation]] on [[Bluesky]] at scale. Manually labeling images of the categories I wanted to apply labels for was going to be tedious.
