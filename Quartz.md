@@ -1,10 +1,10 @@
 ---
 title: "My use of Quartz"
 ---
-[*Quartz*](https://quartz.jzhao.xyz/) v4 is the static site generator used by the website for *[[index|spacious nexus]]*.
+*[Quartz](https://quartz.jzhao.xyz/) 4* is the static site generator used by the website for *[[index|spacious nexus]]*.
 
 >  [!warning] Warning
-> *Quartz* v5 may have major changes that aren’t compatible with the changes for *Quartz* v4. I am currently on commit [`d25a6eabf96751ffca56f8a8139272def7a65041`](https://github.com/jackyzha0/quartz/commit/d25a6eabf96751ffca56f8a8139272def7a65041), so these changes are likely to apply from there.
+> *Quartz 5* may have major changes that aren’t compatible with the changes for *Quartz 4. I am currently on commit [`d25a6eabf96751ffca56f8a8139272def7a65041`](https://github.com/jackyzha0/quartz/commit/d25a6eabf96751ffca56f8a8139272def7a65041), so these changes are likely to apply from there.
 
 ## How I use it
 
@@ -97,6 +97,10 @@ Whenever I do, I mark the note with a warning which will be displayed as an inte
 warning: "Talk about urination, huh? This is my nation. Expect what you see."
 ```
 
+That will display a warning that looks like this.
+
+![[media/Content warning example.webp|An alert box titled “Content warning” has the text “Talk about urination, huh? This is my nation. Expect what you see.”. The buttons for preceding or going back are on the bottom of the box.]]
+
 A component for the warning is defined.
 
 `/quartz/components/ContentWarning.tsx`  
@@ -156,4 +160,49 @@ The component needs to be accessible. This is defined in `/quartz/components/ind
 
 Since I use a custom frontmatter field for the warning text, it will need to be used by *Quartz*.
 
-- [ ] todo: frontmatter defintions
+`/quartz/plugins/transformers/frontmatter.ts`  
+```diff
+   date?: Date
+   description?: string
++  warning?: string
+ }
+@@
+         cssclasses: string[]
+         socialImage: string
+         comments: boolean | string
++        warning: string
+       }>
+   }
+ }
+```
+
+`/quartz/plugins/emitters/contentIndex.tsx`  
+```diff
+               : undefined,
+             date: date,
+             description: file.data.description ?? "",
++            warning: file.data.frontmatter?.warning ?? undefined,
+           })
+         }
+       }
+```
+
+Then, conditionally display the alert on pages with the warning defined in their frontmatter.
+
+`quartz.layout.ts`  
+```diff
+ export const defaultContentPageLayout: PageLayout = {
+   beforeBody: [
+     Component.ConditionalRender({
+       component: Component.Breadcrumbs(),
+       condition: (page) => page.fileData.slug !== "index",
+     }),
++    Component.ConditionalRender({
++      component: Component.ContentWarning(),
++      condition: (page) => typeof page.fileData.frontmatter?.warning === "string",
++    }),
+     Component.ArticleTitle(),
+     Component.ContentMeta(),
+     Component.TagList(),
+```
+
