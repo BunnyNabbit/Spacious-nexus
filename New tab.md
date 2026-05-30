@@ -3,7 +3,7 @@ draft: true
 publish: false
 ---
 
-${templates.linkButton {link = "https://bsky.app", icon = "bsky.app"}} ${templates.linkButton {link = "https://rayleigh.bunnynabbit.com", icon = "rayleigh.bunnynabbit.com"}} ${templates.linkButton {link = "https://www.youtube.com", icon = "www.youtube.com"}} ${templates.linkButton {link = "https://github.com/feed", icon = "github.com"}} ${templates.linkButton {link = "https://mail.google.com/mail/u/0/", icon = "mail.google.com"}} ${templates.linkButton {link = "https://en.wiktionary.org/Wiktionary:Main_page", icon = "en.wiktionary.org"}} ${templates.linkButton {link = "https://ozone.bunnynabbit.com/", icon = "ozone.bunnynabbit.com"}}${templates.linkButton {link = "https://margin.at/home", icon = "margin.at"}} ${templates.linkButton {link = "https://anagora.org/", icon = "anagora.org"}}
+${templates.linkButton {link = "https://bsky.app", icon = "bsky.app"}} ${templates.linkButton {link = "https://rayleigh.bunnynabbit.com", icon = "rayleigh.bunnynabbit.com"}} ${templates.linkButton {link = "https://www.youtube.com", icon = "www.youtube.com"}} ${templates.linkButton {link = "https://github.com/feed", icon = "github.com"}} ${templates.linkButton {link = "https://mail.google.com/mail/u/0/", icon = "mail.google.com"}} ${templates.linkButton {link = "https://en.wiktionary.org/Wiktionary:Main_Page", icon = "en.wiktionary.org"}} ${templates.linkButton {link = "https://ozone.bunnynabbit.com/", icon = "ozone.bunnynabbit.com"}} ${templates.linkButton {link = "https://margin.at/home", icon = "margin.at"}} ${templates.linkButton {link = "https://anagora.org/", icon = "anagora.org"}}
 
 # Recent journal
 *Create:* ${widgets.commandButton "Journal: Today"}

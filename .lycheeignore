@@ -1,4 +1,6 @@
 # Site with separated http/https versions.
 http://offgao.net/ggg/ggg/
 # Errors on unknown agents
+^https?:\/\/medium\.com
+## For linking to npm packages, use npmx.dev instead.
 https://www.npmjs.com/
