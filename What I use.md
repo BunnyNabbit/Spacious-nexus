@@ -3,11 +3,11 @@ draft: true
 ---
 ## Computer operating systems
 
-### Windows
+### *Windows*
 
-I use Windows as my primary desktop operating system.
+I use *Windows* as my primary desktop operating system.
 
-- [[OBS]]
+- *[[OBS]]*.
 
 ### Unix-like
 

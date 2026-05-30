@@ -5,5 +5,6 @@ draft: true
 
 - [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev).
   - `lychee --cache .\README.md --timeout 15`
+  - Entries tend to error on *lychee*'s user agent.
 - *Spacious nexus*.
-  - Uses a GitHub Actions workflow.
+  - Uses a *GitHub Actions* workflow.

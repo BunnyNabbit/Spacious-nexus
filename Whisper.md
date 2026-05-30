@@ -5,7 +5,7 @@ Local voice transcription.
 
 The way that the *Whisper* model works seems to be that real-time transcriptions are inæffective, so I shouldn’t bother looking for it. To achieve transcriptions practical for real-time communication, voice activity should be used to identify speech from silence.
 
-Whisper tends to hallucinate phrases when given insufficient data, silence or short phrases. This includes:
+*Whisper* tends to hallucinate phrases when given insufficient data, silence or short phrases. This includes:
 
 - “Thank you” or “Thanks for watching”.
 - “Sorry”.

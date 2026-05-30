@@ -3,4 +3,4 @@ draft: true
 ---
 ## Inspiration feeds
 
-- [[Mix]]
+- *[[Mix]]*.

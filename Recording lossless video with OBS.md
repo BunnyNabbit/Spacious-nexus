@@ -34,7 +34,7 @@ ffmpeg -i "./input-video.mp4" -codec:v libx264 -codec:a copy -preset placebo -qp
 
 If `-preset placebo` is too slow. Try `-preset veryslow`.
 
-For a five second 60 FPS video of [[Gassy GaoGao]] gameplay, this file is 355KB. It should be playable in most modern browsers. Though, *Discord*’s client doesn’t seem to support playback.
+For a five second 60 FPS video of *[[Gassy GaoGao]]* gameplay, this file is 355KB. It should be playable in most modern browsers. Though, *Discord*’s client doesn’t seem to support playback.
 
 ![Gassy GaoGao gameplay. Aruppy starts on S001, moves to the right and dives into a pit.](</media/Lossless video example.mp4>)
 
