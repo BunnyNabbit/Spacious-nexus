@@ -10,7 +10,7 @@ This is what I initially thought.
 - **Adds a build step**.  
   Before backend runtimes were able to use type stripping, *TypeScript* was usually executed after a compilation step. Though, for the frontend, a build step is always necessary.
 
-I think convenience is to tell users to just run `npm install`. That’s just one common command when working with the *JavaScript* ecosystem.
+I think convenience is to tell users to just run `npm install`. That’s just one common command when working with the *[[JavaScript]]* ecosystem.
 
 ## Why *TypeScript*?
 
