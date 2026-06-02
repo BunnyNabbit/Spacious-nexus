@@ -4,7 +4,7 @@ about: Report a broken link or domain.
 title: ''
 labels: bug
 assignees: ''
-
+publish: false
 ---
 
 - [Replace me with the broken URL or domain.]
