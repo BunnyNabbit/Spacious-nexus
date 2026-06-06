@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 ---
 It’s something that I think that I know but really don’t. I’m more of a backend kind of developer, but I feel it’s pretty necessary to learn about frontend development.
 
