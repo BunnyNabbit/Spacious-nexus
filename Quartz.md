@@ -72,7 +72,7 @@ It creates an interesting opportunity for connecting pages that don't exist. On 
 
 ### Explicit unpublishing
 
-My committed notes are public by default. But sometimes it doesn’t make sense to publish these to my website. *Quartz* comes with [explicit publishing](https://quartz.jzhao.xyz/plugins/ExplicitPublish), so I edited the plugin to be used for explicit unpublishing. This is similar to how the [RemoveDrafts](https://quartz.jzhao.xyz/plugins/RemoveDrafts) plugin works, with the difference being that it acts when `publish` is `false` on a document’s frontmatter.
+My committed notes are public by default. But sometimes it doesn’t make sense to publish these to my website. *Quartz* comes with [explicit publishing](https://quartz.jzhao.xyz/plugins/explicitpublish), so I edited the plugin to be used for explicit unpublishing. This is similar to how the [RemoveDrafts](https://quartz.jzhao.xyz/plugins/removedrafts) plugin works, with the difference being that it acts when `publish` is `false` on a document’s frontmatter.
 
 `/quartz/plugins/filters/explicit.ts`  
 ```ts
