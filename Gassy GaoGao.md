@@ -7,6 +7,8 @@ draft: true
 
 This game is apparently so obscure, there is barely any gameplay footage online, let alone speedruns. This is also a problem as there is very little documentation for routing. To solve this problem, I started the *[Gassy GaoGao wiki](https://gassy-gaogao.bunnynabbit.com/wiki/Main_Page)*.
 
+### Routing
+
 Links and images alone are a bit insufficient for finding routes. I wrote a script to parse a given wiki dump into a visual chart.
 
 ```mermaid
@@ -289,3 +291,8 @@ flowchart TD
     S110 <-->|Red| S111
     S112 <-->|Green| S111
 ```
+
+### Splitting
+
+It’s trivial for one to find memory addresses of the game’s globals. Watching a set of these globals could prove useful for an auto-splitter. So, I did. I wrote *[stinky splitter](https://github.com/BunnyNabbit/stinky-splitter)* for the amusement of the non-existent speedrunning community.
+
