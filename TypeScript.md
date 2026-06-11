@@ -6,7 +6,7 @@ draft: true
 This is what I initially thought.
 
 - **Higher barrier to entry**.  
-  To a newcomer who might not know what strict typing is, *TypeScript* could feel confusing. As is the added amount of unfamiliar syntax or typing conventions.
+  To a newcomer who might not know what strong typing is, *TypeScript* could feel confusing. As is the added amount of unfamiliar syntax or typing conventions.
 - **Adds a build step**.  
   Before backend runtimes were able to use type stripping, *TypeScript* was usually executed after a compilation step. Though, for the frontend, a build step is always necessary.
 
