@@ -6,9 +6,9 @@ I'm *[[About me|BunnyNabbit "Aon"]]*, the *curator of-things*. These are my note
 
 ## What’s in this space
 
-The *spacious nexus* is what defines my domain. I write about what I use and what I made. These can range from technical documentation to essays. Each note is hyperlinked; any note can be a starting point to explore.
+The *spacious nexus* is what defines my domain. I write about what I use and what I made. These range from technical documentation to essays. Each note is hyperlinked; any note can be a starting point to explore.
 
-For a selection of curated notes, see this site’s explorer on the side or hidden on the menu.
+For a selection of curated notes, see this site’s explorer on the side or hidden in its menu.
 
 As with the nature of [[Digital garden|digital gardens]], the *spacious nexus* will always be a draft. But there are no true dead ends. Each 404-page links to a distributed knowledge graph of other digital gardens. *The [[Agora]]* invites others to share their thoughts.
 
