@@ -17,4 +17,5 @@ I feel like such a system is considered low priority for mainstream editors to i
 
 *Nick Gravgaard*‘s website lists some implementations. I’m noticing a few of these editors are very particular about how code is navigated. *[[Clade]]*/*Code Browser* is one example that combines it with [[Explicit folding|explicit folding]].
 
-I am yet to see a proper implementation for *[[Visual Studio Code]]*, my go-to code editor.
+I am yet to see a proper implementation for *[[Visual Studio Code]]*, my go-to code editor.  
+There is the [*Elastic Tabstops Mono*](https://marketplace.visualstudio.com/items?itemName=isral.elastic-tabstops-mono) extension by *Isral*. But as the name suggests, it’s only for monospaced fonts.
