@@ -1,5 +1,4 @@
 ---
-publish: false
 draft: true
 ---
 When I start a project, one thing that comes to mind is naming it. Though, I am very particular about the casing.
