@@ -1,9 +1,19 @@
 ---
 draft: true
+title: "New tab"
 publish: false
 ---
 
-${templates.linkButton {link = "https://bsky.app", icon = "bsky.app"}} ${templates.linkButton {link = "https://rayleigh.bunnynabbit.com", icon = "rayleigh.bunnynabbit.com"}} ${templates.linkButton {link = "https://www.youtube.com", icon = "www.youtube.com"}} ${templates.linkButton {link = "https://github.com/feed", icon = "github.com"}} ${templates.linkButton {link = "https://mail.google.com/mail/u/0/", icon = "mail.google.com"}} ${templates.linkButton {link = "https://en.wiktionary.org/wiki/Wiktionary:Main_Page", icon = "en.wiktionary.org"}} ${templates.linkButton {link = "https://ozone.bunnynabbit.com/", icon = "ozone.bunnynabbit.com"}} ${templates.linkButton {link = "https://margin.at/home", icon = "margin.at"}} ${templates.linkButton {link = "https://anagora.org/", icon = "anagora.org"}}
+${templates.linkButton {link = "https://bsky.app", icon = "bsky.app"}} ${templates.linkButton {link = "https://rayleigh.bunnynabbit.com", icon = "rayleigh.bunnynabbit.com"}} ${templates.linkButton {link = "https://www.youtube.com", icon = "www.youtube.com"}} ${templates.linkButton {link = "https://github.com/feed", icon = "github.com"}} ${templates.linkButton {link = "https://mail.google.com/mail/u/0/", icon = "mail.google.com"}} ${templates.linkButton {link = "https://en.wiktionary.org/wiki/Wiktionary:Main_Page", icon = "en.wiktionary.org"}} ${templates.linkButton {link = "https://ozone.bunnynabbit.com/", icon = "ozone.bunnynabbit.com"}} ${templates.linkButton {link = "https://margin.at/home", icon = "margin.at"}} ${templates.linkButton {link = "https://anagora.org/", icon = "anagora.org"}} ${templates.linkButton {link = "https://mix.com/", icon = "mix.com"}}
+
+# Recent incomplete tasks
+${some(query[[
+  from t = tags.task
+  where not t.done
+  order by t.pageLastModified
+  desc limit 10
+  select templates.taskItem(t)
+]]) or "_All tasks done!_"}
 
 # Recent journal
 *Create:* ${widgets.commandButton "Journal: Today"}
@@ -24,15 +34,6 @@ ${some(query[[
   order by p.lastModified desc
   limit 10 select templates.fullPageItem(p)
 ]]) or "_No quick notes yet!_"}
-
-# Recent incomplete tasks
-${some(query[[
-  from t = tags.task
-  where not t.done
-  order by t.pageLastModified
-  desc limit 10
-  select templates.taskItem(t)
-]]) or "_All tasks done!_"}
 
 # Recently modified pages
 ${query[[
