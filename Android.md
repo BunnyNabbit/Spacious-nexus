@@ -25,12 +25,6 @@ The latest *Chrome Remote Desktop* build is inadequate compared to its previous 
 
 *Steam Link* is alright.
 
-### Downtime
-
-To relax by any means necessary.
-
-- *e1547*.
-
 ### Theming/home screen
 
 I use [*Microsoft Launcher*](https://play.google.com/store/apps/details?id=com.microsoft.launcher). For my icon pack, I use [*Archicons*](https://arcticons.com/).
