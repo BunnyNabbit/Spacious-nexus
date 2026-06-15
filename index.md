@@ -6,7 +6,7 @@ I'm *[[About me|BunnyNabbit "Aon"]]*, the *curator of-things*. These are my note
 
 ## What’s in this space
 
-The *spacious nexus* is what defines my domain. I write about what I use and what I made. These range from technical documentation to essays. Each note is hyperlinked; any note can be a starting point to explore.
+I write about what I use and what I made. These range from technical documentation to essays. Each note is hyperlinked; any note can be a starting point to explore.
 
 For a selection of curated notes, see this site’s explorer on the side or hidden in its menu.
 
