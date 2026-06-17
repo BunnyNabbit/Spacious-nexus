@@ -21,5 +21,5 @@ I have ideas of using it for a stream/live camera avatar of sorts “*[[Sheep Zh
   - Model runs hot and occasionally locks up.
   - Long payloads get rejected by the server.
 - Considering creating a separate *Node.js*/*Express* implementation that invokes a *Whisper* CLI tool instead.
-  For [*whisper.cpp*](https://github.com/ggerganov/whisper.cpp), this command might be sufficient.
+  For [*whisper.cpp*](https://github.com/ggml-org/whisper.cpp), this command might be sufficient.
   `whisper-cli.exe -m ./models/tiny.en.bin -np -nt speech.wav -sns`
