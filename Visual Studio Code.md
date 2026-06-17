@@ -12,7 +12,7 @@ Extensions that I use.
 I enjoy sound feedback in software. There are extensions that enable this. Some of them seem to be based on the [*play-sound*](https://npmx.dev/package/play-sound) *[[npm]]* package. *play-sound* performs poorly on a default Windows setup but adding *[MPlayer](http://www.mplayerhq.hu/design7/dload.html)* to PATH helps to prevent the media player from opening.
 
 - *[TypaTone (Keyboard sounds)](https://marketplace.visualstudio.com/items?itemName=smo.typatone-vscode)*. Based on *[TypaTone](https://typatone.com/)*.  
-  *MPlayer* has a quirk when playing back sounds shorter than one second when invoked from Node.js. I’m not sure why this happens, but it does æffect playback of sounds from this extension. This cause sounds to loop forever until manually killed. My workaround is to manually edit the extension after installation and pad out æffected sounds.
+  *MPlayer* has a quirk when playing back sounds shorter than one second when invoked from *Node.js*. I’m not sure why this happens, but it does æffect playback of sounds from this extension. This cause sounds to loop forever until manually killed. My workaround is to manually edit the extension after installation and pad out æffected sounds.
 - *[Sound Syntax](https://marketplace.visualstudio.com/items?itemName=EmreCebeci.soundsyntax)*.
 - *[Rainbow Fart](https://marketplace.visualstudio.com/items?itemName=saekiraku.rainbow-fart)*.
 
