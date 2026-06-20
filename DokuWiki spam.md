@@ -97,7 +97,7 @@ I was given administration permission, which apparently meant that I could just 
 
 The custom captcha is simple. The user selects the pool toys and ignores the animals.
 
-![A captcha with the message "Click on the animals with this body part." following a sample image rendering of an air valve on a dark blue background. Below the sample is a 3 by 3 grid of images consisting of animals or animal-like objects. From the top row are two cat eyes and a closeup of a cow’s snout. The middle row includes a parrot, inflatable unicorn pool toy and a leopard. The bottom row has an inflatable flamingo pooltoy, raccoon and an eagle. At the bottom is an unfilled text box and a register button.](<media/DokuWiki image captcha.webp>)
+![A captcha with the message "Click on the animals with this body part." following a sample image rendering of an air valve on a dark blue background. Below the sample is a 3 by 3 grid of images consisting of animals or animal-like objects. From the top row are two cat eyes and a closeup of a cow’s snout. The middle row includes a parrot, inflatable unicorn pooltoy and a leopard. The bottom row has an inflatable flamingo pooltoy, raccoon and an eagle. At the bottom is an unfilled text box and a register button.](</media/DokuWiki image captcha.webp>)
 
 - Fork: [BunnyNabbit/dokuwiki-plugin-captcha at image-grid](https://github.com/BunnyNabbit/dokuwiki-plugin-captcha/tree/image-grid).
 
@@ -107,6 +107,6 @@ Somehow, this stopped the botting problem entirely. Sure, there could be a bunch
 - The images are not uniquely served; they always use the same URLs when requested.
   - I’d add some noise to this to prevent basic hashing of captcha images.
 - The current captcha is a bit confusing. Which made for some amusing interactions.  
-![Cake sent a message: “does anyone know what this captcha is?”, attaching an image of the image captcha. Catabonk responds: “nice try robot”](<media/Captcha confusion.webp>)
+![Cake sent a message: “does anyone know what this captcha is?”, attaching an image of the image captcha. Catabonk responds: “nice try robot”](</media/Captcha confusion.webp>)
 
 It has been working for months, so I haven’t felt the need to come back to it.
