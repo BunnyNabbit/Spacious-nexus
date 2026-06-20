@@ -16,8 +16,8 @@ For a while, I had this userscript running in a browser tab. I figured to make a
     - Get the list of elements by using `document.querySelector("#dw__recent > div.no > ul")`  
     - It is then trivial to scrape information off of these elements. For example, getting the user name would just be `liElement.children[0].querySelector(".user").innerText`.
 2. A weird name shows up, one I don't recognize. It'll have a hardcoded list of trusted usernames to not delete pages from.
-3. Check if it is an edit or a new page. if it's a new page, the element would contain `/lib/images/blank.gif` in its innerHTML.
-4. if it is a new page, navigate directly to `https://wiki.sandpile.xyz/doku.php?id={page_name}&do=edit`, empty `#wiki__text` value and submit form
+3. Check if it is an edit or a new page. If it's a new page, the element would contain `/lib/images/blank.gif` in its innerHTML.
+4. If new, navigate directly to `https://wiki.sandpile.xyz/doku.php?id={page_name}&do=edit`, empty `#wiki__text` value and submit form. Otherwise, the page gets ignored as the spam bots only creates pages.
 
 ```javascript
 // ==UserScript==
@@ -52,9 +52,7 @@ For a while, I had this userscript running in a browser tab. I figured to make a
 				const isNewPage = liElement.innerHTML.includes("/lib/images/blank.gif")
 
 				if (!trusted.includes(userName)) {
-					if (isNewPage) {
-						window.location.href = `${pageLink}&do=edit#delete`
-					}
+					if (isNewPage) window.location.href = `${pageLink}&do=edit#delete`
 				}
 			} catch (error) {
 				// ignore errors, just in case the structure of the page changes
@@ -72,14 +70,10 @@ For a while, I had this userscript running in a browser tab. I figured to make a
 	} else if (getHash() === "delete") {
 		// clear textarea
 		const textarea = document.querySelector("#wiki__text")
-		if (textarea) {
-			textarea.value = ""
-		}
+		if (textarea) textarea.value = ""
 		// submit
 		const submitButton = document.querySelector("#edbtn__save")
-		if (submitButton) {
-			submitButton.click()
-		}
+		if (submitButton) submitButton.click()
 	} else {
 		// probably have just deleted a page. go to recent changes page
 		setTimeout(() => {
@@ -103,7 +97,7 @@ The custom captcha is simple. The user selects the pool toys and ignores the ani
 
 Somehow, this stopped the botting problem entirely. Sure, there could be a bunch of improvements for the plugin.
 
-- It should be data driven. Right now, it’s a set of images is hardcoded into the plugin.
+- It should be data driven. Right now, a set of images is hardcoded into the plugin.
 - The images are not uniquely served; they always use the same URLs when requested.
   - I’d add some noise to this to prevent basic hashing of captcha images.
 - The current captcha is a bit confusing. Which made for some amusing interactions.  
