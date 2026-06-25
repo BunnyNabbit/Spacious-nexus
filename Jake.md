@@ -1,0 +1,11 @@
+---
+draft: true
+---
+- A [[person]].
+  - Into [[security]].
+  - Got me into *[[JavaScript]]* and [[Programming|programming]] in general.
+    - Can’t thank him enough for that alone.
+  - He built a project in which I made projects of.
+    - Gave me important advice about [[Object-orientated programming|object-orientated programming]]. I didn’t get it at the time, but I totally get where he’s coming from now.
+    - Originally being for a legacy codebase, it was supposed to be superseded. It never was.
+  - We mostly moved on after that. Only rarely contacting each other for our specialized domains.
