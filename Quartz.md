@@ -16,7 +16,7 @@ The true source of information comes from my *[[SilverBullet]]* space hosted on 
 
 I selectively stage changes and commit them to the git repository. Naturally, all of these notes are public. However, some notes aren’t too useful to the general public or are incomplete. But I don’t want to exclude those notes from being published. So instead, I hide them from the explorer.
 
-I use a variation of [this guide](https://noxz.tech/articles/explorer_filters_in_quartz) for creating the explorer filter. It’s different in that I use the `draft` field instead of that guide’s use of `explorerexclude`.
+I use a variation of [this customization](https://noxz.tech/articles/explorer-filters-in-quartz) for creating the explorer filter. It’s different in that I use the `draft` field instead of that guide’s use of `explorerexclude`.
 
 - [ ] Document what was changed. Potentially I’ll have to do this again.
 
@@ -43,7 +43,7 @@ I’m getting the idea that I should set up a git hook on my remote repository. 
 
 ### Custom 404 page
 
-I needed my 404 page to be useful. I edited `/quartz/components/pages/404.tsx` to include a link to [the *Agora*](https://anagora.org/).
+I needed my 404 page to be useful. I edited `/quartz/components/pages/404.tsx` to include a link to [the *Agora*](https://anagora.org/), a distributed knowledge graph.
 
 ```diff
 @@ const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
