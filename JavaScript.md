@@ -13,3 +13,4 @@ They say it has various pitfalls. Your doctor would tell you: “Stop moving it 
 Can’t help it? Use restraint:
 
 - [*ESLint*](https://npmx.dev/package/eslint).
+- *[[TypeScript]]*.
