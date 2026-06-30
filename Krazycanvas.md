@@ -5,7 +5,7 @@ title: "Reviving Krazycanvas"
 ---
 > Believe me. This canvas does get *krazy*.
 
-An *[[Adobe Flash]]* game in which an infinite canvas is the playable area. It ran until the expiration of *Flash* after 2020. By then, the game and its canvas would’ve been forgotten.
+An *[[Adobe Flash]]* [[Games|game]] in which an infinite canvas is the playable area. It ran until the expiration of *Flash* after 2020. By then, the game and its canvas would’ve been forgotten.
 
 I played this game a couple times throughout its years. It was a fun curiosity. There wasn’t too much gameplay, the player had to navigate a network of doors, find crystals to unlock those doors until... they reach a door. I forgot what exactly happens, but I don’t think it was anything particularly exciting.
 
