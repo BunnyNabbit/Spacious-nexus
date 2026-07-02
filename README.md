@@ -20,3 +20,6 @@ See [[CONTRIBUTING]].
 - `/Media` - Images and videos.
 - `/Cards` - *Open Graph* images. Files are named after the page they are for.
 - `/Libraries` - Libraries used by *SilverBullet*. Likely excluded from *Git*. See `.gitignore` for libraries used by the space.
+- `/Discord` - Curated *Discord* messages sent in a semi-private server.
+
+As this space is to be ingested from various *Git*-based consumers, it’s generally advised keeping attachments small. For images, use lossy webp. The space can contain raw project files (i.e.: `.pdn`), but these aren’t to be versioned on *Git*.
