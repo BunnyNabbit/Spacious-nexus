@@ -31,8 +31,8 @@ The database deploys what we call "good enough". Allow me to explain.
   Each entity has its most relevant shape.
   - [[Line]] - Linear relationship.
     - [[Circle]] - Enclosed [[Line]].  
-      A circle no order.  
-      [[Flax]] has oder.
+      A circle has no order.  
+      [[Silver Forest/Flax]] has oder.
 
 These are your nodes. I figured that there's meaning between the edges. As of late, I think that this model is flawed. But we're sticking with the current model; it works well enough.
 
