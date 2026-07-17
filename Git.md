@@ -5,7 +5,7 @@ draft: true
 
 ## Clients
 
-For a standalone client, I use [GitHub Desktop Plus](https://github.com/pol-rivero/github-desktop-plus). If I’m using *[[Visual Studio Code]]*, I use its built-in version control panel. I rarely use the *git* CLI directly, reserving it mostly for advanced operations.
+For a standalone client, I use [Desktop Plus](https://github.com/desktop-plus/desktop-plus). If I’m using *[[Visual Studio Code]]*, I use its built-in version control panel. I rarely use the *git* CLI directly, reserving it mostly for advanced operations.
 
 ## Hosting
 
