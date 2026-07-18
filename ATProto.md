@@ -7,7 +7,7 @@ Its strengths seem to be in storing and transferring public data. I think data p
 
 - [ ] Document *ATProto* development, pitfalls and tooling.
 
-I self-host my personal data server on https://pds.bunnynabbit.com. However, even I don’t completely trust that. I regularly backup my repositories and blobs locally. I have a did:plc rotation key stored in my password manager just in case.
+I self-host my personal data server on https://waffffffffffffffffffffffffffffffffffff.bunnynabbit.com. However, even I don’t completely trust that. I regularly backup my repositories and blobs locally. I have a did:plc rotation key stored in my password manager just in case.
 
 ## Applications
 
