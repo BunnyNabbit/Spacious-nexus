@@ -6,8 +6,8 @@ I started using *JavaScript* on a specialized virtual environment where digital 
 
 - *[[npm]]*.
 - *JavaScript* runtimes:
-  - *[[Node-js|Node.js]]* - In which it runs, it runs there on there. It works, apparently.
-  - *[[Bun]]* - Do Not Interact.
+  - *[[Node js|Node.js]]* - In which it runs, it runs there on there. It works, apparently.
+  - *Bun* - Do Not Interact.
 
 They say it has various pitfalls. Your doctor would tell you: “Stop moving it that way.”.  
 Can’t help it? Use restraint:
