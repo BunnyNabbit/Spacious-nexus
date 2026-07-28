@@ -8,7 +8,7 @@ draft: true
 
 Interestingly, the graphic files from *[[Cube World]]*’s *Steam* release can still be opened in the only available *Picroma Plasma* release.
 
-[^1]: ”*However, [reading old information about Plasma](https://web.archive.org/web/20111219052434/http://picroma.com/Downloads/Plasma) suggests that the "Activate" functionality was not used, with only the "Login" functionality being used, which contacts the server every 60 seconds.*” — [coremaze/Plasma-Writeup](https://github.com/coremaze/Plasma-Writeup)
+[^1]: “*However, [reading old information about Plasma](https://web.archive.org/web/20111219052434/http://picroma.com/Downloads/Plasma) suggests that the "Activate" functionality was not used, with only the "Login" functionality being used, which contacts the server every 60 seconds.*” — [coremaze/Plasma-Writeup](https://github.com/coremaze/Plasma-Writeup)
 
 ## Possible alternatives
 
