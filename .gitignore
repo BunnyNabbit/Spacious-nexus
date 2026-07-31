@@ -3,3 +3,4 @@ Library/mermaid.plug.js
 Library/silverbullet-mermaid.md
 *.pdn
 *.original.*
+/Library/Std
