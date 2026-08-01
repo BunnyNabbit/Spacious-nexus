@@ -1,6 +1,15 @@
 # Site with separated http/https versions.
 http://offgao.net/ggg/ggg/
+# Often always expires
+^https?:\/\/cdn\.discordapp\.com
 # Errors on unknown agents
 ^https?:\/\/medium\.com
-## For linking to npm packages, use npmx.dev instead.
+^https?:\/\/www\.igdb\.com
+# For linking to npm packages, use npmx.dev instead.
 https://www.npmjs.com/
+# Cloudflare or various other captchas 
+^https?:\/\/flashpointarchive\.org
+^https?:\/\/www\.dokuwiki\.org
+^https?:\/\/www\.furaffinity\.net
+# Dead links with no archives
+https://github.com/penelopejordyn/Labyrinth
