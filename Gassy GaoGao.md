@@ -294,5 +294,6 @@ flowchart TD
 
 ### Splitting
 
-It’s trivial for one to find memory addresses of the game’s globals. Watching a set of these globals could prove useful for an auto-splitter. So, I did. I wrote *[stinky splitter](https://github.com/BunnyNabbit/stinky-splitter)* for the amusement of the non-existent speedrunning community.
+It’s trivial for one to find memory addresses of the game’s globals. Watching a set of these globals could prove useful for an auto-splitter. So, I did. I wrote *[stinky splitter](https://github.com/BunnyNabbit/stinky-splitter)* for the amusement of the ~~non-existent~~ speedrunning community that is yet to exist.
 
+- [ ] Publish an optimized video here.
