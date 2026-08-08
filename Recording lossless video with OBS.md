@@ -37,6 +37,8 @@ Videos will be recorded in .avi format if this is done. Depending on the given v
    - x264 options (separated by space): `qp=0`
    - Set “CPU Usage Preset” to highest of what your device can handle. Or set to fastest if you plan to re-encode the video.
 
+Where “CPU Usage Preset” should be set depends on other factors, including the resolution of the video and the nature of the captured footage. If *OBS* shows a “Encoding overloaded!” status message, it’s a good indicator that a faster preset should be chosen.
+
 ## Further video optimization
 
 Whichever way the video is encoded, it may not exactly be tightly compacted. For this, it may be recommended to re-encode the recorded lossless video.

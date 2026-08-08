@@ -8,5 +8,3 @@ Sorted by preference.
 - Regarding the *spacious nexus*: [GitHub issues](https://github.com/BunnyNabbit/Spacious-nexus/issues).
 - E-mail: Ask.
 - *Discord*: Ask.
-
-I’m a terrible role model for hygiene. Don’t ask me anything on that matter, I might just give out bad life advice. I’m only there to support anyone who is just as ‘broken’ as me.
