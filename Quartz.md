@@ -142,7 +142,7 @@ export default (() => {
 
 It does not apply for search results. This is intentional, as it would otherwise result in a poor experience when looking through search results.
 
-The component needs to be accessible. This is defined in `/quartz/components/index.ts`.
+The component needs to be exported. It is exported on in `/quartz/components/index.ts`.
 
 ```diff
  import Flex from "./Flex"
