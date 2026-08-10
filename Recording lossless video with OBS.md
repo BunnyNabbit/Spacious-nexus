@@ -15,11 +15,14 @@ This is advised as it involves configuring various settings, which may not be co
 
 By default, OBS uses “NV12 (8-bit, 4:2:0, 2 planes)“. This format is suitable for streaming and lossy recording. However, when used for lossless recording, this can create fuzzy frames.
 
-1. On the advanced tab, set “Color Format” to “I444 (8-bit, 4:4:4, 3 planes)”.
+1. Navigate to the advanced tab.
+2. Set “Color Format” to “I444 (8-bit, 4:4:4, 3 planes)”.
 
 ## With simple output mode
 
-1. In the output tab in settings with “Output Mode” set to “Simple”. Use “Lossless Quality” preset on the recording section.
+1. Navigate to the output tab.
+2. Set “Output Mode” to “Simple”.
+3. Use “Lossless Quality” preset on the recording section.
 
 Videos will be recorded in .avi format if this is done. Depending on the given video resolution and your drive speed, this may result in dropped frames. It may be necessary to record using *H.264* as detailed in the next section.
 
@@ -48,7 +51,7 @@ ffmpeg -i "./input-video.mp4" -codec:v libx264 -codec:a copy -preset placebo -qp
 ```
 
 - Flags explained:
-  - `-codec:v libx264`: Encodes all video streams with *x264*.
+  - `-codec:v libx264`: Encodes all video streams using the *x264* encoder.
   - `-preset placebo`: Tells *x264* to use its encoding slowest preset. This compacts the output file further.
   - `-codec:a copy`: Copies the audio stream to the output. The audio stream is specified with `:a`[^stream-specifier] and is copied to the output file.[^streamcopy]
   - `-qp 0`: Sets the quantization parameter to zero. On *x264*, this ranges from 0 to 51, with zero (0) meaning lossless.[^qp-x264-fullhelp]
