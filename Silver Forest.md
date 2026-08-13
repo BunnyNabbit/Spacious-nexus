@@ -20,7 +20,7 @@ you seem to be rather doubtful aboutbthe current business strategy.
     - everyone has to.
     - the only place. it's
 
-I started working here because I had a fondness for boxes. I'm not sure what we're doing now,mv.c i'm btowsing the database nust to get a sense of things.
+I started working here because I had a fondness for boxes. I'm not sure what we're doing now,mv.c i'm btowsing the database nust to get a sense of things. -- [[DXF]]-2I
 
 ---
 
@@ -36,7 +36,9 @@ The database deploys what we call "good enough". Allow me to explain.
 
 These are your nodes. I figured that there's meaning between the edges. As of late, I think that this model is flawed. But we're sticking with the current model; it works well enough.
 
-We keep track of entities in the database. Have your matter on front, it matters that way. Middlematter is what Westminster calls "unstructured data".
+- [ ] #sf-meta does [[Zolpiden]] just build everything
+
+We keep track of entities in the database. Have your matter on front, it matters that way. Middlematter is what [[DXF]]-3I calls "unstructured data".
 
 Lines create a clear separation. It defines borders. It has to.
 
