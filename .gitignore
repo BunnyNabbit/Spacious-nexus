@@ -1,6 +1,10 @@
 /Library/mrmugame
 Library/mermaid.plug.js
 Library/silverbullet-mermaid.md
+/Library/Std
+# Original files as to not bloat the Git repository
 *.pdn
 *.original.*
-/Library/Std
+# External repositories I include in my space
+## github.com/ripienaar/free-for-dev
+/free-for-dev
