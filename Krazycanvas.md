@@ -11,7 +11,7 @@ I played this game a couple times throughout its years. It was a fun curiosity. 
 
 The canvas was the interesting part. As it was just anything an unregistered user can draw on, there was the occasional scribbles for the desperate player to foot on. And maybe a few artwork that folks managed to make with its limited tooling. It’s rather interesting that the game made some attempt to incentivize interesting backgrounds. It did this with the clouds. A random part of the canvas would be used as a hint for where a hidden crystal is.
 
-But as *Flash* was to expire after 2020, I wasn’t too sure of what to do about it. I opened up the browser’s developer tools, navigated to the network tab and began moving around the canvas. When I thought I had traversed enough of the canvas, I exported a .har file. I wasn’t sure what to do with it. But I did know that in some form, there is culture preserved. Rather predictably, the server for the game has since been offline.
+But as *Flash* was to expire after 2020, I wasn’t too sure of what to do about it. I opened up the browser’s developer tools, navigated to the network tab and began moving around the canvas. When I thought I had traversed enough of the canvas, I exported a .har file. I wasn’t sure what to do with it. But I did know that in some form, there is culture preserved. Rather predictably, the server for the game was taken offline.
 
 ## A game isn’t lost so easily
 
