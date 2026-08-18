@@ -14,7 +14,7 @@ The ~~residents~~ employees of *Silver Forest* were given gifts. This time, they
 
 It’s probably just something with the coloring. Everyone who didn’t have their fair share of the snare, were given hares, in which I’m told is not literal. I like to think it is.
 
-<!-->Folks-in-the-ware really don’t like it when I use it as an alternative for an empty water bottle. Which is strange, considering they’re completely fine with me drinking water.</!-->
+<!-- Folks-in-the-ware really don’t like it when I use it as an alternative for an empty water bottle. Which is strange, considering they’re completely fine with me drinking water. -->
 
 \~~~~ *[[Aon Langton]]*
 
