@@ -26,6 +26,6 @@ I mostly label video and images. For handling large queues, I developed *[Raylei
 
 This isn’t something I’m too familiar on despite my constant exposure to sexual content. For *ATProto*, I rely on the Bluesky moderation service’s ability to take down repositories or to appropriately label content.
 
-For sexual content specifically, I don’t think there is a way to handle it while maintaining reasonable pace for handling ~2,000-10,000 posts a day. I’m [[About my sexuality|asexual]]; unsure if that’s necessarily good or bad. Though, I tend to embrace fetishes as a form of motivation where acceptable.
+For sexual content specifically, I don’t think there is a way to handle it while maintaining reasonable pace for handling ~2,000-10,000 posts a day. I’m [[About my sexuality|asexual]]; unsure if that’s necessarily good or bad.
 
 I’ve seen some wild stuff on *Roblox*. No matter how competent each platform’s moderation systems are, there will be people that will try to bypass it.
