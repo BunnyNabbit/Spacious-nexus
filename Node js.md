@@ -1,6 +1,5 @@
 ---
 draft: true
-publish: false
 title: "Node.js"
 displayName: "Node.js"
 aliases:
@@ -20,4 +19,4 @@ aliases:
         - Does state that external dependencies are usually not bundled.
           - is *smart-buffer* problematic?
   - `NODE_COMPILE_DIR`.
-    - Unable to tell how much this improves loading.
+    - Unable to tell how much this actually does improves loading.

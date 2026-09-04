@@ -1,5 +1,5 @@
 ---
-publish: false
+draft: true
 ---
 An attribute of a [[person]] who takes notes, typically by using software like [[Obsidian]], [[SilverBullet]] or anything of the matter.
 

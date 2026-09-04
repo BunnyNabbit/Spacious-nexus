@@ -5,12 +5,13 @@ draft: true
 
 ## Clients
 
-For a standalone client, I use [Desktop Plus](https://github.com/desktop-plus/desktop-plus). If I’m using *[[Visual Studio Code]]*, I use its built-in version control panel. I rarely use the *git* CLI directly, reserving it mostly for advanced operations.
+For a standalone client, I use *[Desktop Plus](https://github.com/desktop-plus/desktop-plus)*. If I’m using *[[Visual Studio Code]]*, I use its built-in version control panel. I rarely use the *git* CLI directly, reserving it mostly for advanced operations.
 
 ## Hosting
 
 - *[[GitHub]]*.
-- *[[Tangled]]*.
+- ~~*[[Tangled]]*~~. Considering only as a mirror of lately.
+- [ ] *[[Codeberg]]*. <!--considering moving there as it pissed off a bunch of folks who only find code as a means to an end. Rewrite this comment to be rational, Gronk. -->
 
 ## Advanced operations
 

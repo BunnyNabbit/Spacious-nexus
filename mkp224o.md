@@ -1,5 +1,4 @@
 ---
-publish: false
 draft: true
 ---
 Vanity address generator for *[[Tor]]* onion services.

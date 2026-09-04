@@ -3,9 +3,9 @@ draft: true
 ---
 [*SilverBullet*](https://silverbullet.md/) is what I use to edit and make the most use out of the *[[index|spacious nexus]]*.
 
-I have *SilverBullet* hosted on a VPS. I have some private notes or unstaged changes, so my space is the single source of truth. Its [git repository](https://github.com/BunnyNabbit/Spacious-nexus) tends to be a more curated view of the space.
+I have *SilverBullet* hosted on a <abbr title="Virtual private server">VPS</abbr>. I have some private notes or unstaged changes, so my space is the single source of truth. Its [git repository](https://github.com/BunnyNabbit/Spacious-nexus) tends to be a more curated view of the space<!-- [[Notes serve different audiences]].-->. <!-- ayyyyyy i'm kind of clever!!!! -->
 
-I have [a page](https://github.com/BunnyNabbit/Spacious-nexus/blob/main/New%20tab.md) set as my default tab. It’s not displayed on the website; I excluded it from publishing as it generally doesn’t make sense for it to be there. But it is *just* a new tab page, it includes the links to my frequently used websites and some actions. Since I can edit it at any time with little effort, I often keep some small notes or tasks. I believe doing this helps encourage creating, editing or looking back at notes.
+I have [a page](https://github.com/BunnyNabbit/Spacious-nexus/blob/main/New%20tab.md) set as my default tab. It’s not displayed on the website; I excluded it from publishing as it generally doesn’t make sense for it to be there. But it is <span title="my latest product in the line">*just*</span> a new tab page, it includes the links to my frequently used websites and some actions. Since I can edit it at any time with little effort, I often keep some small notes or tasks. I believe doing this helps encourage creating, editing or looking back at notes.
 
 Then, I selectively publish documents to [notes.bunnynabbit.com](https://notes.bunnynabbit.com) using *[[Quartz]]*. I thought about using *SilverBullet* itself for publishing, but it really isn’t designed for that and would involve a more convoluted setup.
 
