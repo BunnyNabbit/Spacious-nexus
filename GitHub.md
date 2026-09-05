@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 ---
 - *GitHub* has lately removed viewing stargazers so what’s the point now.
 - lovely code search index. For this alone, I would still use *GitHub* as a mirror if I were to switch out of it.
