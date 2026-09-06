@@ -45,3 +45,7 @@ $.ajax({
     console.error(error)
 })
 ```
+
+### Filter testing
+
+I moderate models. Part of that means I test out filters to make sure that they work. *Roblox*’s text filters always filters these three private-use characters: `` `` ``. These UI elements are not intended for use in chat, so these are perfect for not violating community guidelines.
