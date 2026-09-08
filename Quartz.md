@@ -16,7 +16,7 @@ The true source of information comes from my *[[SilverBullet]]* space hosted on 
 
 I selectively stage changes and commit them to the git repository. Naturally, all of these notes are public. However, some notes aren’t too useful to the general public or are incomplete. But I don’t want to exclude those notes from being published. So instead, I hide them from the explorer.
 
-I use a variation of [this customization](https://noxz.tech/articles/explorer-filters-in-quartz) for creating the explorer filter. It’s different in that I use the `draft` field instead of that guide’s use of `explorerexclude`.
+I use a variation of [this customization](https://noxz.tech/articles/explorer-filters-in-quartz) for creating the explorer filter. It’s different in that I use the `draft` field instead of that customization’s use of `explorerexclude`.
 
 - [ ] Document what was changed. Potentially I’ll have to do this again.
 
@@ -66,9 +66,9 @@ I needed my 404 page to be useful. I edited `/quartz/components/pages/404.tsx` t
  export default (() => NotFound) satisfies QuartzComponentConstructor
 ```
 
-This potentially enables a more [[social]] aspect of linking. I can link to *the [[Agora]]*. It'll be a 404 page, sure. But folks that are interested in the *Agora* typically write about it, so there is bound to be enough coverage. I can also be rather lax when linking to [[concepts]], even if it's something I wouldn't [[write]] about. Since [[Journal/2026-05-20]], the *spacious nexus* is part of that *Agora*
+This potentially enables a more [[social]] aspect of linking. I can link to *the [[Agora]]*. It'll be a 404 page, sure. But folks that are interested in the *Agora* typically write about it, so there is bound to be enough coverage. I can also be rather lax when linking to [[concepts]], even if it's something I wouldn't [[write]] about. Since [[Journal/2026-05-20]], the *spacious nexus* is part of that agora
 
-It creates an interesting opportunity for connecting pages that don't exist. On one hand it's a page that doesn't exist on my graph, but it's also a page that exists elsewhere and has [[connections]] within the vast *Agora*.
+It creates an interesting opportunity for connecting pages that don't exist. On one hand it's a page that doesn't exist on my graph, but it's also a page that exists elsewhere and has [[connections]] within the vast agora.
 
 ### Explicit unpublishing
 
