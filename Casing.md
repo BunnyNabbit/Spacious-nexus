@@ -11,7 +11,7 @@ What is a title? I call myself the *curator of-things*. But shouldn’t that be 
 
 Funny thing. As a whelp, I didn’t understand how capitalization was supposed to work for a while. On the chat interface I’d Type Like This and nobody was to tell me something about it. I don’t call myself a writer, but I think I understand it now. I like to think...
 
-## kabab-casing
+## kebab-casing
 
 The standard casing for *[[npm]]* packages. It’s probably where I started using italics.
 
