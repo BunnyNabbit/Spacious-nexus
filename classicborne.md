@@ -14,7 +14,7 @@ What makes a good library? I believe that to be demonstrated by its uses. So far
 
 - Authentication is to be implemented by subclasses. This means projects using *classicborne* has to reimplement key security features when subclassing the BasePlayer class.
 - potentially more. Will need to start a smaller project and see what other pain points exist.
-- BaseHeartbeat is tuned for *[[ClassiCube]]*. This notably includes resend times tuned for modern flakey internet infrastructure, which may not exist in other platforms.
+- BaseHeartbeat is tuned for *[[ClassiCube]]*. This notably includes resend times tuned for modern flaky internet infrastructure, which may not exist in other platforms.
   - If the heartbeat format or transport layer is different, it may be difficult to use BaseHeartbeat for that.
 - [Issues · BunnyNabbit/classicborne](https://github.com/BunnyNabbit/classicborne/issues)
 
