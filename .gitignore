@@ -2,6 +2,9 @@
 Library/mermaid.plug.js
 Library/silverbullet-mermaid.md
 /Library/Std
+# Syncthing
+.stfolder/
+.stignore
 # Original files as to not bloat the Git repository
 *.pdn
 *.original.*
