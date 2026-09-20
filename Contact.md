@@ -11,4 +11,4 @@ title: "Contact me"
 - Regarding the *spacious nexus*: [GitHub issues](https://github.com/BunnyNabbit/Spacious-nexus/issues).
 - E-mail: Ask.
 - *Discord*: Ask.
-<span style="display: none"><script src="/ConditionalHash.mjs"></script></span>
+<span style="display: none"><script src="/ConditionalHash.mjs" type="module"></script></span>
