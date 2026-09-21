@@ -1,5 +1,6 @@
 ---
 title: "Contact me"
+description: "List of methods to contact me."
 ---
 <conditional-hash style="display: none">
 	<p hash="feral-hare">You are seeing this because you followed an internal IP. If <i>feral hare</i> is misbehaving, please get in contact.</p>
