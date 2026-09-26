@@ -3,9 +3,9 @@ draft: true
 ---
 ## Snippets
 
-### Edit place metadata
+### Edit place imagery metadata
 
-A user had trouble editing icons and thumbnails of places in an experience. Apparently, the `create.roblox.com` interface doesn’t allow them to. I’m not the owner of the group to try troubleshooting this. However, I found a workaround in the form of a *[[JavaScript]]* snippet, which seems to have work? I’m not sure why it still works. It has been working for years, and we still don’t have an elegant solution.
+A user had trouble editing icons and thumbnails of places in an experience. This is because users are required to have permission to create items in groups. I found a workaround in the form of a *[[JavaScript]]* snippet, which bypasses the need to upload images to a group.
 
 These snippets are to be evaluated on `www.roblox.com` using the browser’s *JavaScript* console. To update place icon:
 
