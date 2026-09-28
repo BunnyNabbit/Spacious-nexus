@@ -5,7 +5,8 @@ aliases:
   - "Spacious nexus"
   - "Space"
 ---
-I'm *[[About me|BunnyNabbit "Aon"]]*, the *curator of-things*. These are my notes. I call it the *spacious nexus*.
+
+I'm <span title="Or as my full legal name suggests: BunnyNabbit “Aon” Langton — same one on my card.">*[[BunnyNabbit|BunnyNabbit “Aon”]]*</span>, the *[[Curator of-things|curator of-things]]*. These are my notes. <span title="I still think naming my notes is weird, but it was something I came up in the spot while setting up Quartz. But also, there's too many terms to describe a personal knowledge graph.">I call it the *spacious nexus*</span>.
 
 ## What’s in this space
 
