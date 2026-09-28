@@ -16,4 +16,3 @@ People say that I'm a [[furry]]. I'm not sure what it means.
 
 - [[Contact]].
 - [[About my sexuality|Sexuality]].
-- [[Pronouns]].
