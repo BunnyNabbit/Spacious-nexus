@@ -23,6 +23,6 @@ The *[[SilverBullet]]* space is always in sync. But the *Git* repository is not 
 git symbolic-ref HEAD refs/heads/null-branch
 git fetch origin main:main
 git symbolic-ref HEAD refs/heads/main
+# Unstage all changes
+git reset
 ```
-
-This stages changes for some reason? Wouldn’t know why, so I just unstage them separately. This allows me to push changes on two separate devices.
