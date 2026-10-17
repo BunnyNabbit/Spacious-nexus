@@ -72,8 +72,10 @@ jobs:
 
 ### Issue tracking
 
-I like *GitHub*’s issue tracker. *Forgejo* has something similar, and then some more. I could use two separate issue trackers, but *Forgejo* provides the option to copy issues when migrating a repository.
+*oh boy.*
 
-I decided on moving over to use *Forgejo*’s issue tracking. While pull requests are open for either forge, only issues are accepted on *Codeberg*. I reason that the bug reporting experience is unæffected as users can login to *Codeberg* using a *GitHub* account.
+*Forgejo* is a bit stuck in the past if you’re still used to *GitHub*’s issue tracker. Sub-issues? Look back on task-lists, the preceding solution to sub-issues that GitHub encouraged users to migrate from.
 
-*Codeberg*‘s anti-spam measures are a bit annoying to deal with. Create more than two issues with identical titles? Don’t.
+For most of my projects, either this wasn’t a problem, or I could easily convert my sub-issues back into task-lists. But I once opened more than 100 issues in one repository. That’s unwieldy. There is a point where I give up and leave the issue tracking to GitHub.
+
+*Codeberg*’s anti-spam measures are a bit annoying to deal with. Create more than two issues with identical titles? Don’t. My workaround was to open issues first on the *GitHub* side and then migrate the repository with those.
