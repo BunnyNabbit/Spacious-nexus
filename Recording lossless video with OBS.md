@@ -13,12 +13,19 @@ This is advised as it involves configuring various settings, which may not be co
 
 ## Configure the color format
 
-By default, OBS uses “NV12 (8-bit, 4:2:0, 2 planes)“. This format is suitable for streaming and lossy recording. However, when used for lossless recording, this can create fuzzy frames.
+By default, *OBS* uses “NV12 (8-bit, [4:2:0](https://en.wikipedia.org/wiki/YCbCr#4:2:0), 2 planes)“. That’s a format designed to reduce file size by reducing the overall color fidelity. When used for lossless recording, it can create fuzzy frames as caused by its chroma sub-sampling. This should be changed to a different format where chroma sub-sampling isn’t used.
+
+![Two images being compared side by side. From left to right are images labeled “Reference” and “NV12” respectively. The NV12 image shows a slighter brighter and fuzzy image from the reference. The images depict a pixelated dragon farting a green cloud.](https://notes.bunnynabbit.com/media/NV12-comparison.webp)
 
 1. Navigate to the advanced tab.
 2. Set “Color Format” to “I444 (8-bit, 4:4:4, 3 planes)”.
+3. Set “Color Range” to “Full”.
 
 ## With simple output mode
+
+>  [!warning] Warning
+> This preset is not recommended. Among other problems, its color fidelity is inaccurate.
+>  ![Two images being compared side by side. From left to right are images labeled “Reference” and “’Lossless‘ preset” respectively. The lossless preset shows a slighter brighter image from the reference. The images depict a pixelated dragon farting a green cloud.](https://notes.bunnynabbit.com/media/OBS-Studio-lossless-preset-comparison.webp)
 
 1. Navigate to the output tab.
 2. Set “Output Mode” to “Simple”.
@@ -60,7 +67,7 @@ ffmpeg -i "./input-video.mp4" -codec:v libx264 -codec:a copy -preset placebo -qp
 [^streamcopy]: [ffmpeg Documentation: 3.1 Streamcopy](https://ffmpeg.org/ffmpeg.html#Streamcopy).
 [^qp-x264-fullhelp]: “Force constant QP (0-51, 0=lossless)” - `x264 --fullhelp`
 
-For a five second 60 FPS video of *[[Gassy GaoGao]]* gameplay, this file is 355KB. It should be playable in most modern browsers. Though, *Discord*’s client doesn’t seem to support playback.
+For a five second 60 FPS video of *[[Gassy GaoGao]]* gameplay, this file is 355KB. It’s playable in *Chromium*-based browsers. Though, *Discord*’s client doesn’t seem to support playback.
 
 ![Gassy GaoGao gameplay. Aruppy starts on S001, moves to the right and dives into a pit.](</media/Lossless video example.mp4>)
 
