@@ -24,7 +24,7 @@ By default, *OBS* uses “NV12 (8-bit, [4:2:0](https://en.wikipedia.org/wiki/YCb
 ## With simple output mode
 
 >  [!warning] Warning
-> This preset is not recommended. Among other problems, its color fidelity is inaccurate.
+> This preset is not recommended. Among other problems, its color fidelity is inaccurate.  
 >  ![Two images being compared side by side. From left to right are images labeled “Reference” and “’Lossless‘ preset” respectively. The lossless preset shows a slighter brighter image from the reference. The images depict a pixelated dragon farting a green cloud.](https://notes.bunnynabbit.com/media/OBS-Studio-lossless-preset-comparison.webp)
 
 1. Navigate to the output tab.
