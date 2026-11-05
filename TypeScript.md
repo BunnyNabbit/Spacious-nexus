@@ -31,8 +31,8 @@ An issue with this may be verbosity. Since the *JSDoc* tags are to be in multipl
 - [*JSDoc Folder*](https://marketplace.visualstudio.com/items?itemName=aydgn.jsdoc-folder). An extension for *[[Visual Studio Code]]* to automatically collapse documentation comments.
 - [[Explicit folding]].
 
-An example of a *JavaScript*-only project using *TypeScript* is [*celaria-formats*](https://github.com/BunnyNabbit/celaria-formats).  
-- [`tsconfig.json`](https://github.com/BunnyNabbit/celaria-formats/blob/main/tsconfig.json).
+An example of a *JavaScript*-only project using *TypeScript* is [*celaria-formats*](https://codeberg.org/BunnyNabbit/celaria-formats).  
+- [`tsconfig.json`](https://codeberg.org/BunnyNabbit/celaria-formats/src/branch/main/tsconfig.json).
   - Only checks *JavaScript* if explicitly marked for type checking using `// @ts-check`.
   - Emits type declarations but is not used for compiling.
 - Documentation generated from *TypeDoc*.

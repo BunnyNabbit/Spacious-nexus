@@ -5,12 +5,12 @@ It’s something that I think that I know but really don’t. I’m more of a ba
 
 I once used vanilla *[[JavaScript]]*, *CSS* and *HTML* for building sites, but I figured that this doesn’t scale well. Bundling and ES modules do help, but anything too involved with UI interactions tends to fall apart. I’ve heard about web components, but I am yet to assess the usefulness of it.
 
-- *[atp-label-indexer](https://github.com/BunnyNabbit/atp-label-indexer)*, *[rayleigh-labels](https://github.com/BunnyNabbit/rayleigh-labels)*
+- *[atp-label-indexer](https://codeberg.org/BunnyNabbit/atp-label-indexer)*, *[rayleigh-labels](https://codeberg.org/BunnyNabbit/rayleigh-labels)*
   - Uses *[[Webpack]]* for bundling.
   - *JavaScript*.
   - Controller classes for managing interactive elements.
   - No server rendering. Single page application.
-* *[Voxel Telephone](https://github.com/BunnyNabbit/voxel-telephone)* (Web interface)
+* *[Voxel Telephone](https://codeberg.org/BunnyNabbit/voxel-telephone)* (Web interface)
   * Uses *Astro* for its web framework.
   * Mixed. *TypeScript*, *JavaScript* and JSX syntax.
   * No client-sided logic.

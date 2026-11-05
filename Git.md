@@ -11,7 +11,7 @@ For a standalone client, I use *[Desktop Plus](https://github.com/desktop-plus/d
 
 - *[[GitHub]]*.
 - ~~*[[Tangled]]*~~. Considering only as a mirror of lately.
-- [ ] *[[Codeberg]]*. <!--considering moving there as it pissed off a bunch of folks who only find code as a means to an end. Rewrite this comment to be rational, Gronk. -->
+- [x] *[[Codeberg]]*. <!--considering moving there as it pissed off a bunch of folks who only find code as a means to an end. Rewrite this comment to be rational, Gronk. -->
 
 ## Advanced operations
 

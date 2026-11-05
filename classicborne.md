@@ -16,6 +16,6 @@ What makes a good library? I believe that to be demonstrated by its uses. So far
 - potentially more. Will need to start a smaller project and see what other pain points exist.
 - BaseHeartbeat is tuned for *[[ClassiCube]]*. This notably includes resend times tuned for modern flaky internet infrastructure, which may not exist in other platforms.
   - If the heartbeat format or transport layer is different, it may be difficult to use BaseHeartbeat for that.
-- [Issues · BunnyNabbit/classicborne](https://github.com/BunnyNabbit/classicborne/issues)
+- [Issues · BunnyNabbit/classicborne](https://codeberg.org/BunnyNabbit/classicborne/issues)
 
 On the subject of maintainability, I think that putting my work as open source libraries has helped me understand how important it is. *[[sepragame]]* hasn’t been maintainable, I really dislike my old projects’ practices now.

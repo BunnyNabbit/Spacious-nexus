@@ -21,7 +21,7 @@ I self-host my personal data server on https://wafffffffffffffffffffffffffffffff
 
 - *[Query Labeler Services](https://labels.bunnynabbit.com/)* - A moderation service indexer.
   - [BunnyNabbit/label-driven-feed-generator](https://github.com/BunnyNabbit/label-driven-feed-generator) - Feed generator based on its indexed labels.
-- [BunnyNabbit/rayleigh-labels](https://github.com/BunnyNabbit/rayleigh-labels) - Quick [[Content moderation|moderation]] interface for labeling posts containing images.
+- [BunnyNabbit/rayleigh-labels](https://codeberg.org/BunnyNabbit/rayleigh-labels) - Quick [[Content moderation|moderation]] interface for labeling posts containing images.
 
 ## Ideas
 
