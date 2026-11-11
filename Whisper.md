@@ -20,7 +20,7 @@ I have ideas of using it for a stream/live camera avatar of sorts “*[[Sheep Zh
 - [huwprosser/web-whisper](https://github.com/huwprosser/web-whisper) - *Python* backend.
   - Model runs hot and occasionally locks up.
   - Long payloads get rejected by the server.
-- Considering creating a separate *Node.js*/*Express* implementation that invokes a *Whisper* CLI tool instead.
+- ~~Considering creating a separate *Node.js*/*Express* implementation that invokes a *Whisper* CLI tool instead.~~ Prototype works so well.
   For [*whisper.cpp*](https://github.com/ggml-org/whisper.cpp), this command might be sufficient.
   `whisper-cli.exe -m ./models/tiny.en.bin -np -nt speech.wav -sns`  
   it was...
